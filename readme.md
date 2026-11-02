@@ -14,4 +14,20 @@ Only public or synthetic datasets will be used.
 No company data will be used.
 
 ## Project Status
-Initial project setup.
+Initial project setup
+
+## Development Setup
+
+Python version used: 3.13.0
+
+Create a virtual environment on Windows:
+
+```powershell
+py -3.13 -m venv .venv
+```
+
+Install dependencies:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
